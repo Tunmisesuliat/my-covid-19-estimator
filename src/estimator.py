@@ -1,2 +1,7 @@
 def estimator(data):
-  return data
+    output = {
+        "data": data,
+        "impact": {},
+        "severeImpact": {}
+    }
+    return output
